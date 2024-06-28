@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box; /*box-border*/
+  }
+  
+  body {
+    font-family: sans-serif;  /*font-serif*/
+    margin: 20px; /*m-5*/
+    padding: 0; /*p-0*/
+  }
+  
+  h1 {
+    margin-top: 0; /*my-0*/
+    font-size: 22px; /*text-xl (20) or text-2xl (24)*/
+  }
+  
+  h2 {
+    margin-top: 0; 
+    font-size: 20px; /*text-xl*/
+  }
+  
+  h3 {
+    margin-top: 0; 
+    font-size: 18px; /*text-lg*/
+  }
+  
+  h4 {
+    margin-top: 0; 
+    font-size: 16px; /*text-base*/
+  }
+  
+  h5 {
+    margin-top: 0; 
+    font-size: 14px; /*text-sm*/
+  }
+  
+  h6 {
+    margin-top: 0; 
+    font-size: 12px; /*text-xs*/
+  }
+  
+  code {
+    font-size: 1.2em; /*ない*/
+  }
+  
+  ul {
+    padding-inline-start: 20px; /*わからない*/
+  }
+  
+  * {
+    box-sizing: border-box; 
+  }
+  
+  body {
+    font-family: sans-serif; 
+    margin: 20px; 
+    padding: 0; 
+  }
+  
+  .square {
+    background: #fff; /*bg-white*/
+    border: 1px solid #999; /*border-[#999] border-solid border*/
+    float: left; /*float-left*/
+    font-size: 24px; /*text-2xl*/
+    font-weight: bold; /*font-bold*/
+    line-height: 34px; /*leading-8 (32) or leading-9 (36)*/
+    height: 34px; /*h-8 (32)*/
+    margin-right: -1px; /*-mr-px*/
+    margin-top: -1px; /*-mt-px*/
+    padding: 0; /*p-0*/
+    text-align: center; /*text-center*/
+    width: 34px; /*w-8 (32) or w-9 (36)*/
+  }
+  
+  .board-row:after {
+    clear: both; /*clear-both*/
+    content: ''; /*content-['']*/
+    display: table; /*table*/
+  }
+  
+  .status {
+    margin-bottom: 10px; /*mb-2.5*/
+  }
+  .game {
+    display: flex; /*flex*/
+    flex-direction: row; /*flex-row*/
+  }
+  
+  .game-info {
+    margin-left: 20px; /*mx-5 or ml-5*/
+  }
+  
